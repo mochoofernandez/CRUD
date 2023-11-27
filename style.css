@@ -1,0 +1,124 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://i.pinimg.com/originals/86/ba/75/86ba751f87721e21bb8e3bb6a561ac4e.jpg);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .text-center {
+    background-color: #dccd35;
+    padding: 10px 0;
+    color: #fff;
+    animation: slideInDown 1s ease-out;
+  }
+  
+  @keyframes slideInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: slideInLeft 1s ease-out;
+  }
+  
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .form-label {
+    color: #ffffff;
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+    animation: fadeIn 1s ease-out;
+  }
+  
+  .table-container {
+    max-width: 600px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 0;
+    overflow-x: auto;
+    animation: fadeIn 1s ease-out;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  .table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #dccb35;
+    color: #fff;
+  }
+  
+  .btn-primary {
+    animation: fadeIn 1s ease-out;
+    animation: changeColor 2s infinite;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    animation: fadeIn 1s ease-out;
+  }
+  
+  .btn-warning:hover {
+    background-color: #d39e00;
+  }
+  
+  @media (max-width: 767px) {
+    .form-control {
+      margin-bottom: 10px;
+    }
+  }
+
+  @keyframes changeColor {
+    0% {
+        background-color: green;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+      background-color: green;
+    }
+  }
+  h1{
+    color: white;
+    text-align: center;
+  }

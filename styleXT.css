@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://data.1freewallpapers.com/download/white-blue-green-spiral-vortex-abstraction-4k-abstract.jpg);
+    background-size: cover;
+  }
+  
+  .login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #27ae60;
+  }
+  
+  /* Animación de cambio de color */
+  @keyframes changeColor {
+    0% {
+        background-color: #34db3f;
+    }
+    10% {
+        background-color: #dce73c;
+    }
+    20% {
+        background-color: #c534db;
+    }
+    30%{
+        background-color: red;
+    }
+    40%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: #000000;
+    }
+    60%{
+        background-color: palevioletred;
+    }
+    70%{
+        background-color: gray;
+    }
+    80%{
+        background-color:rgb(192, 182, 44);
+    }
+    90%{
+        background-color: blue;
+    }
+    100%{
+        background-color: #34db3f;
+    }
+  }
+  
+  button {
+    animation: changeColor 5s infinite;
+  }
+  body{
+    text-align: center;
+  }
+  label{
+    text-align:left;
+  }
